@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Finance Options</title>
+  </head>
+  <style>
+    body {
+      padding: 60px;
+      font-family: "Inter", sans-serif;
+      font-display: swap;
+      font-size: 1rem;
+      position: relative;
+    }
+
+    .address-area {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      align-items: start;
+      padding-top: 60px;
+    }
+
+    .gefinances-table {
+      border-collapse: collapse;
+      width: 100%;
+      border: 1px solid #ddd;
+    }
+
+    .gefinances-table tr {
+      border: 1px solid #ddd;
+    }
+
+    th:not(.text-center),
+    td:is(.gefinances-table-heading) {
+      text-align: left !important;
+    }
+
+    .gefinances-table th,
+    .gefinances-table td {
+      padding: 10px;
+      text-align: center;
+    }
+
+    .gefinances-table-heading {
+      font-weight: bold;
+      background-color: #dddddd;
+      text-align: left;
+    }
+    .ml-5 {
+      margin-left: 30px;
+    }
+
+    .w-full {
+      width: 100%;
+    }
+
+    .write-up-paragaph {
+      font-size: 12px;
+    }
+
+    .signature-area strong {
+      font-size: 20px;
+      font-style: italic;
+    }
+
+    .gefinances-calculated-value-table-area {
+      padding: 60px 0px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .gefinances-calculated-value-table-area table td:nth-of-type(even) {
+      text-align: right;
+    }
+
+    .w-70 {
+      width: 70%;
+    }
+
+    @media only screen and (max-width: 768px) {
+      .w-70 {
+        width: 100%;
+      }
+
+      body {
+        padding: 20px;
+      }
+    }
+
+    .underline {
+      text-decoration: underline;
+    }
+
+    .pt-7 {
+      padding-top: 20px;
+    }
+  </style>
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+  />
+
+  <body>
+    <header class="w-full">
+      <img
+        src="https://i.ibb.co/HKWBmFS/header.jpg"
+        alt="Financial header"
+        srcset="https://i.ibb.co/HKWBmFS/header.jpg"
+        class="w-full"
+      />
+    </header>
+    <div class="address-area">
+      <p>
+        [First] [Last]<br />
+        Company<br />
+        Address<br />
+        City, State, Zip<br />
+        Phone<br />
+        Email
+      </p>
+
+      <p>[April 15, 2024]</p>
+    </div>
+
+    <div>
+      <p>Dear First,</p>
+    </div>
+
+    <div>
+      <p>
+        Thank you for allowing US Financial and US Financial to provide your
+        company with a finance solution for your business equipment needs. Below
+        are options you may choose from in making your equipment purchase
+        decision. If you have any questions, please contact US Financial by
+        e-mail at
+        <a href="mailto:taylor@gefinances.com">taylor@gefinances.com</a> or call
+        us at <a href="tel:866-435-3274">866-435-3274</a> and we will be glad to
+        help.
+      </p>
+    </div>
+
+    <table border="1" class="gefinances-table">
+      <tbody>
+        <tr class="gefinances-table-heading">
+          <th>Purchase Option</th>
+          <th class="text-center">36 Months</th>
+          <th class="text-center">48 Months</th>
+          <th class="text-center">60 Months</th>
+          <th class="text-center">72 Months</th>
+          <th class="text-center">84 Months</th>
+        </tr>
+        <tr>
+          <td class="gefinances-table-heading">Loan</td>
+          <td>36mo</td>
+          <td>48mo</td>
+          <td>60mo</td>
+          <td>72mo</td>
+          <td>84mo</td>
+        </tr>
+        <tr>
+          <td class="gefinances-table-heading">Lease</td>
+          <td>36FMV</td>
+          <td>48FMV</td>
+          <td>60FMV</td>
+          <td>72FMV</td>
+          <td>84FMV</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="write-up-paragaph">Program: <strong>A Rates</strong></p>
+    <p class="ml-5 write-up-paragaph">
+      $Lease Buyout At the end of the contract term, customer may purchase the
+      equipment for (20% * Amount Requested).
+    </p>
+
+    <div class="gefinances-calculated-value-table-area w-full">
+      <table class="w-70" border="0">
+        <tbody>
+          <tr>
+            <td>Initial Equipment Cost</td>
+            <td>$200,000.00</td>
+          </tr>
+
+          <tr>
+            <th class="pt-7">1st year write-offs</th>
+          </tr>
+
+          <tr>
+            <td>- Section 179 deduction</td>
+            <td>$200,000.00</td>
+          </tr>
+          <tr>
+            <td>- Bonus depreciation (80% after Section 179 deduction)</td>
+            <td>+ $0.00</td>
+          </tr>
+          <tr>
+            <td>- Annual Standard Depreciation of 20% for Years 1-5</td>
+            <td class="underline">+ $0.00</td>
+          </tr>
+          <tr>
+            <td>Total deduction in 1st year</td>
+            <td>$200,000.00</td>
+          </tr>
+          <tr>
+            <td class="pt-7">Tax savings (35% tax bracket assumed)</td>
+            <td class="underline pt-7">- $70,000.00</td>
+          </tr>
+          <tr>
+            <td class="pt-7">
+              <strong>Bottom line equipment cost after tax savings</strong>
+            </td>
+            <td class="pt-7"><strong>$130,000.00</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="writeup-text">
+      <p>
+        Quotes are for financing that is to be used for business purposes.
+        Quoted payments do not include Taxes, Maintenance, or Insurance. Quotes
+        are subject to credit approval and may change without notice. Quotes are
+        for good credit. Rates and structure may change by weaker credit. Terms
+        for startup companies may structure differently depending on industry
+        and strength of Customer.
+      </p>
+      <p>Please call or email if you have any questions.</p>
+    </div>
+
+    <div class="signature-area">
+      <p>
+        Sincerely,<br /><br />
+        <strong>Your Sales Team</strong><br /><br />
+        <a href="mailto:taylor@gefinances.com">taylor@gefinances.com</a><br />
+        <a href="tel:866-435-3274">866-435-3274</a>
+      </p>
+    </div>
+
+    <footer class="pt-7">
+      <p>
+        This quote is valid for 30 days from today which will be Wednesday - May
+        15, 2024.
+      </p>
+    </footer>
+  </body>
+</html>
